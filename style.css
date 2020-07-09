@@ -32,5 +32,13 @@ form button {
 }
 
 form button {
-    color: 
+    color: #fda085;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    background-color: #fda085;
+    color: white;
 }
